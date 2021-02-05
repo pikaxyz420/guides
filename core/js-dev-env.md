@@ -79,14 +79,14 @@ Git is pre-installed on some distributions of Linux and Mac.
 
 - Git (Windows, Mac, and Linux): https://git-scm.com/downloads
 
-More info here: https://github.com/git-guides/
-
 - Test your local Git executable by running `git --version`
 
 ```sh
 user@group:~$ git --version
 git version 2.25.1
 ```
+
+More info here: https://github.com/git-guides/
 
 ## Questions
 
