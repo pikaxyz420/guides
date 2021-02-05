@@ -46,14 +46,14 @@
 - Test your local NodeJS executable by running `node --version`
 
 ```sh
-user@device:~$ node --version
+user@group:~$ node --version
 v14.4.0
 ```
 
 - Test your local NPM executable by running `npm --version`
 
 ```sh
-user@device:~$ npm --version
+user@group:~$ npm --version
 6.14.5
 ```
 
