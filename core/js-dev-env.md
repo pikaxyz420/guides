@@ -37,7 +37,7 @@
 - NodeJS (Windows & Mac) : https://nodejs.org/en/download/
 - NodeJS (Debian and Ubuntu based Linux) : https://github.com/nodesource/distributions
 
-> On LTS (long-term-support) vs Current release, we prefer installing the LTS versions for stability.
+> On choosing between LTS (long-term-support) vs Current release, we prefer installing the LTS versions for stability.
 >
 > More info here: https://nodejs.org/en/about/releases/
 
