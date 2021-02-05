@@ -45,7 +45,7 @@ Yes, there are Online IDE's for that.
 
 We recommend these platforms for online coding, e.g. testing features, trying simple stuff
 
-Most of them allow working with HTML, CSS, and JavaScript.
+These platforms allow working with HTML, CSS, and JavaScript.
 
 Some of these allow working with Frameworks, and working with server-side JavaScript with NodeJS.
 
