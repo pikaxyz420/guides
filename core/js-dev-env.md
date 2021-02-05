@@ -47,7 +47,7 @@ We recommend these platforms for online coding, e.g. testing features, trying si
 
 These platforms allow working with HTML, CSS, and JavaScript.
 
-Some of these allow working with Frameworks, and working with server-side JavaScript with NodeJS.
+Some of them allow working with third-party libraries, others allow working with server-side JavaScript (with NodeJS).
 
 ## Local Development Environment
 
