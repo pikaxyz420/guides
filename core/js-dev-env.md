@@ -1,5 +1,4 @@
 ---
-layout: null
 title: "JavaScript Development Environment"
 ---
 
