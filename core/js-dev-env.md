@@ -30,6 +30,10 @@ IDE's stand for Integrated Development Environment)
 
 We recommend these platforms for online coding, e.g. testing features, trying simple stuff
 
+Most of them allow working with HTML, CSS, and JavaScript.
+
+Some of these allow working with Frameworks, and working with server-side JavaScript with NodeJS.
+
 ## Local Development Environment
 
 #### Installing an IDE
