@@ -19,11 +19,21 @@
   - [NodeJS API Docs](#nodejs-api-docs)
 - [Questions](#questions)
 
+## What Do You Need
+
+To get started, you'll need the following:
+
+- A computer (Windows, Mac, or Linux)
+- A text-editor or an IDE (Integrated Development Environment)
+- A web browser (Google Chrome, Mozilla Firefox, or Microsoft Edge)
+
 ## Online Development Environment
 
-#### Online IDEs
+**Can I code online?**
 
-IDE's stand for Integrated Development Environment)
+Yes, there are Online IDE's for that.
+
+#### Online IDEs
 
 - https://repl.it/
 - https://playcode.io/
@@ -40,17 +50,25 @@ Some of these allow working with Frameworks, and working with server-side JavaSc
 
 ## Local Development Environment
 
+**Can I code locally on my computer?**
+
+Yes, for that you'll need the following:
+
+- An IDE.
+- NodeJS, a JavaScript runtime environment for running and testing server-side code.
+- NPM, a package manager for easy consumption of third-party JavaScript libraries.
+- Git, a version control system, used for tracking code changes, and collaboration purposes.
+
 #### Installing an IDE
 
-- Visual Studio Code (Free) : https://code.visualstudio.com/download
-- Sublime Text (Paid) : https://www.sublimetext.com/
-- JetBrains WebStorm (Paid) : https://www.jetbrains.com/webstorm/
+- Visual Studio Code (Free): https://code.visualstudio.com/download
+- Atom (Free): https://atom.io/
+- Sublime Text (Paid): https://www.sublimetext.com/
+- JetBrains WebStorm (Paid): https://www.jetbrains.com/webstorm/
 
 We recommend Visual Studio Code, it's free and runs on Windows, Mac, and Linux platforms.
 
 #### Installing NodeJS & NPM
-
-NodeJS is a JavaScript runtime environment, NPM is a package manager.
 
 NPM is included in NodeJS installers.
 
@@ -76,8 +94,6 @@ user@group:~$ npm --version
 ```
 
 #### Installing Git
-
-Git is a version control system, used for tracking code changes, and collaboration purposes.
 
 Git is pre-installed on some distributions of Linux and Mac.
 
