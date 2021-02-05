@@ -1,4 +1,4 @@
-## Welcome
+# [Home](https://pikaxyz420.github.io/guides/)
 
 - [JavaScript Development Environment](https://pikaxyz420.github.io/guides/core/js-dev-env)
 
