@@ -5,6 +5,7 @@
 - [Online Development Environment](#online-development-environment)
 - [Local Development Environment](#local-development-environment)
   - [Local Binaries](#local-binaries)
+  - [Local Testing](#local-testing)
 
 ## Online Development Environment
 
@@ -21,7 +22,7 @@
 - Sublime Text (Paid) : https://www.sublimetext.com/
 - JetBrains WebStorm (Paid) : https://www.jetbrains.com/webstorm/
 
-> We recommend Visual Studio Code, it's free and runs on all platforms.
+> We recommend Visual Studio Code, it's free and runs on Windows, Mac, and Linux platforms.
 
 #### Local Binaries 
 
@@ -31,3 +32,19 @@
 > On LTS (long-term-support) vs Current release, we prefer installing the LTS versions for stability.
 >
 > More info here: https://nodejs.org/en/about/releases/
+
+#### Local Testing
+
+- Test your local NodeJS executable by running `node --version`
+
+```sh
+user@device:~$ node --version
+v14.4.0
+```
+
+- Test your local NPM executable by running `npm --version`
+
+```sh
+user@device:~$ npm --version
+6.14.5
+```
