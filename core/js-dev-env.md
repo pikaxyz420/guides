@@ -42,6 +42,10 @@ We recommend Visual Studio Code, it's free and runs on Windows, Mac, and Linux p
 
 #### Installing NodeJS & NPM
 
+NodeJS is a JavaScript runtime environment, NPM is a package manager.
+
+NPM is included in NodeJS installers.
+
 - NodeJS (Windows & Mac): https://nodejs.org/en/download/
 - NodeJS (Debian and Ubuntu based Linux): https://github.com/nodesource/distributions
 
@@ -65,9 +69,11 @@ user@group:~$ npm --version
 
 #### Installing Git
 
-- Git (Windows, Mac, and Linux): https://git-scm.com/downloads
+Git is a version control system, used for tracking code changes, and collaboration purposes.
 
 Git is pre-installed on some distributions of Linux and Mac.
+
+- Git (Windows, Mac, and Linux): https://git-scm.com/downloads
 
 More info here: https://github.com/git-guides/
 
