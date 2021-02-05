@@ -17,7 +17,9 @@
 
 ## Online Development Environment
 
-#### Online IDE's
+#### Online IDEs
+
+IDE's stand for Integrated Development Environment)
 
 - https://repl.it/
 - https://playcode.io/
@@ -26,7 +28,7 @@
 - https://jsfiddle.net/
 - https://codepen.io/
 
-> We recommend these platforms for online coding, e.g. testing features, trying simple stuff
+We recommend these platforms for online coding, e.g. testing features, trying simple stuff
 
 ## Local Development Environment
 
@@ -36,16 +38,16 @@
 - Sublime Text (Paid) : https://www.sublimetext.com/
 - JetBrains WebStorm (Paid) : https://www.jetbrains.com/webstorm/
 
-> We recommend Visual Studio Code, it's free and runs on Windows, Mac, and Linux platforms.
+We recommend Visual Studio Code, it's free and runs on Windows, Mac, and Linux platforms.
 
 #### Installing NodeJS & NPM
 
 - NodeJS (Windows & Mac): https://nodejs.org/en/download/
 - NodeJS (Debian and Ubuntu based Linux): https://github.com/nodesource/distributions
 
-> On choosing between LTS (long-term-support) vs Current release, we prefer installing the LTS versions for stability.
->
-> More info here: https://nodejs.org/en/about/releases/
+On choosing between LTS (long-term-support) vs Current release, we prefer installing the LTS versions for stability.
+
+More info here: https://nodejs.org/en/about/releases/
 
 - Test your local NodeJS executable by running `node --version`
 
@@ -65,9 +67,9 @@ user@group:~$ npm --version
 
 - Git (Windows, Mac, and Linux): https://git-scm.com/downloads
 
-> Git is pre-installed on some distributions of Linux and Mac.
-> 
-> More info here: https://github.com/git-guides/
+Git is pre-installed on some distributions of Linux and Mac.
+
+More info here: https://github.com/git-guides/
 
 - Test your local Git executable by running `git --version`
 
@@ -78,6 +80,6 @@ git version 2.25.1
 
 ## Questions
 
-> For questions, you may reach us on Discord at https://discord.gg/d4rJDTU3Yy
->
-> Feel free to open an issue or submit a PR, Thank you!
+For questions, you may reach us on Discord at https://discord.gg/d4rJDTU3Yy
+
+Feel free to open an issue or submit a PR, Thank you!
