@@ -9,7 +9,7 @@
 
 - [Online Development Environment](#online-development-environment)
 - [Local Development Environment](#local-development-environment)
-  - [Installing NodeJS](#installing-nodejs)
+  - [Installing NodeJS & NPM](#installing-nodejs--npm)
   - [Installing Git](#installing-git)
 - [Questions](#questions)
 
