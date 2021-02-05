@@ -6,6 +6,7 @@
 - [Local Development Environment](#local-development-environment)
   - [Local Binaries](#local-binaries)
   - [Local Testing](#local-testing)
+- [Questions](#questions)
 
 ## Online Development Environment
 
@@ -15,6 +16,8 @@
 - https://codesandbox.io/
 - https://jsfiddle.net/
 - https://codepen.io/
+
+> We recommend these platforms for online coding, e.g. testing features, trying simple stuff
 
 ## Local Development Environment
 
@@ -48,3 +51,9 @@ v14.4.0
 user@device:~$ npm --version
 6.14.5
 ```
+
+## Questions
+
+> For questions, you may reach us on Discord at https://discord.gg/d4rJDTU3Yy
+>
+> Feel free to open an issue or submit a PR, Thank you!
