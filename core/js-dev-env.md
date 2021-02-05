@@ -63,6 +63,13 @@ user@group:~$ npm --version
 > 
 > More info here: https://github.com/git-guides/
 
+- Test your local Git executable by running `git --version`
+
+```sh
+user@group:~$ git --version
+git version 2.25.1
+```
+
 ## Questions
 
 > For questions, you may reach us on Discord at https://discord.gg/d4rJDTU3Yy
