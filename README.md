@@ -1,13 +1,11 @@
 ## Welcome
 
-- [JavaScript Development Environment](/guides/core/js-dev-env)
+- JavaScript Development Environment
+  - [View](https://pikaxyz420.github.io/guides/core/js-dev-env)
+  - [Edit](https://github.com/pikaxyz420/guides/edit/master/core/js-dev-env.md)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Questions
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pikaxyz420/guides/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+> For questions, you may reach us on Discord at https://discord.gg/d4rJDTU3Yy
+>
+> Feel free to open an issue or submit a PR, Thank you!
