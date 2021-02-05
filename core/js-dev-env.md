@@ -55,7 +55,7 @@ Some of them allow working with third-party libraries, others allow working with
 
 Yes, for that you'll need the following:
 
-- An IDE.
+- A computer, a text-editor / IDE, and a web browser.
 - NodeJS, a JavaScript runtime environment for running and testing server-side code.
 - NPM, a package manager for easy consumption of third-party JavaScript libraries.
 - Git, a version control system, used for tracking code changes, and collaboration purposes.
