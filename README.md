@@ -1,4 +1,4 @@
-# [Home](https://pikaxyz420.github.io/guides/)
+## Home
 
 - [JavaScript Development Environment](https://pikaxyz420.github.io/guides/core/js-dev-env)
 
