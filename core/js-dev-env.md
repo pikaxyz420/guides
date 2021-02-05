@@ -1,6 +1,8 @@
 
 ### [Home](https://pikaxyz420.github.io/guides/)
 
+---
+
 ## JavaScript Development Environment
 
 ### Contents
