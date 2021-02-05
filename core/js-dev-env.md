@@ -5,6 +5,8 @@
 
 ## JavaScript Development Environment
 
+Setting up your development environment for client-side and server-side coding with JavaScript.
+
 ## Contents
 
 - [What Do You Need](#what-do-you-need)
