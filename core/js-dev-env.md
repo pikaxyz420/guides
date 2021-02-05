@@ -9,8 +9,8 @@
 
 - [Online Development Environment](#online-development-environment)
 - [Local Development Environment](#local-development-environment)
-  - [Local Binaries](#local-binaries)
-  - [Local Testing](#local-testing)
+  - [Installing NodeJS](#installing-nodejs)
+  - [Installing Git](#installing-git)
 - [Questions](#questions)
 
 ## Online Development Environment
@@ -32,16 +32,14 @@
 
 > We recommend Visual Studio Code, it's free and runs on Windows, Mac, and Linux platforms.
 
-#### Local Binaries 
+#### Installing NodeJS
 
-- NodeJS (Windows & Mac) : https://nodejs.org/en/download/
-- NodeJS (Debian and Ubuntu based Linux) : https://github.com/nodesource/distributions
+- NodeJS (Windows & Mac): https://nodejs.org/en/download/
+- NodeJS (Debian and Ubuntu based Linux): https://github.com/nodesource/distributions
 
 > On choosing between LTS (long-term-support) vs Current release, we prefer installing the LTS versions for stability.
 >
 > More info here: https://nodejs.org/en/about/releases/
-
-#### Local Testing
 
 - Test your local NodeJS executable by running `node --version`
 
@@ -56,6 +54,14 @@ v14.4.0
 user@group:~$ npm --version
 6.14.5
 ```
+
+#### Installing Git
+
+- Git (Windows, Mac, and Linux): https://git-scm.com/downloads
+
+> Git is pre-installed on some distributions of Linux and Mac.
+> 
+> More info here: https://github.com/git-guides/
 
 ## Questions
 
