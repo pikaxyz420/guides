@@ -32,7 +32,7 @@
 
 > We recommend Visual Studio Code, it's free and runs on Windows, Mac, and Linux platforms.
 
-#### Installing NodeJS
+#### Installing NodeJS & NPM
 
 - NodeJS (Windows & Mac): https://nodejs.org/en/download/
 - NodeJS (Debian and Ubuntu based Linux): https://github.com/nodesource/distributions
