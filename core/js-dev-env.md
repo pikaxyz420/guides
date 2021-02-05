@@ -1,6 +1,9 @@
-# JavaScript Development Environment
 
-## Contents
+# [Home](https://pikaxyz420.github.io/guides/)
+
+## [JavaScript Development Environment](https://pikaxyz420.github.io/guides/js-dev-env)
+
+### Contents
 
 - [Online Development Environment](#online-development-environment)
 - [Local Development Environment](#local-development-environment)
@@ -8,7 +11,7 @@
   - [Local Testing](#local-testing)
 - [Questions](#questions)
 
-## Online Development Environment
+### Online Development Environment
 
 - https://repl.it/
 - https://playcode.io/
@@ -19,7 +22,7 @@
 
 > We recommend these platforms for online coding, e.g. testing features, trying simple stuff
 
-## Local Development Environment
+### Local Development Environment
 
 - Visual Studio Code (Free) : https://code.visualstudio.com/download
 - Sublime Text (Paid) : https://www.sublimetext.com/
@@ -52,7 +55,7 @@ user@device:~$ npm --version
 6.14.5
 ```
 
-## Questions
+### Questions
 
 > For questions, you may reach us on Discord at https://discord.gg/d4rJDTU3Yy
 >
