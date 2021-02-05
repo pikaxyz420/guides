@@ -8,12 +8,16 @@
 ## Contents
 
 - [Online Development Environment](#online-development-environment)
+  - [Online IDEs](#online-ides)
 - [Local Development Environment](#local-development-environment)
+  - [Installing an IDE](#installing-an-ide)
   - [Installing NodeJS & NPM](#installing-nodejs--npm)
   - [Installing Git](#installing-git)
 - [Questions](#questions)
 
 ## Online Development Environment
+
+#### Online IDE's
 
 - https://repl.it/
 - https://playcode.io/
@@ -25,6 +29,8 @@
 > We recommend these platforms for online coding, e.g. testing features, trying simple stuff
 
 ## Local Development Environment
+
+#### Installing an IDE
 
 - Visual Studio Code (Free) : https://code.visualstudio.com/download
 - Sublime Text (Paid) : https://www.sublimetext.com/
