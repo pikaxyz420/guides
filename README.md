@@ -1,8 +1,6 @@
 ## Welcome
 
-- JavaScript Development Environment
-  - [View](https://pikaxyz420.github.io/guides/core/js-dev-env)
-  - [Edit](https://github.com/pikaxyz420/guides/edit/master/core/js-dev-env.md)
+- JavaScript Development Environment [View](https://pikaxyz420.github.io/guides/core/js-dev-env) [Edit](https://github.com/pikaxyz420/guides/edit/master/core/js-dev-env.md)
 
 ## Questions
 
