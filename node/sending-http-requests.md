@@ -13,6 +13,7 @@ Sending requests with NodeJS.
 ## Contents
 
 - [What Do You Need](#what-do-you-need)
+- [When Do You Need This](#when-do-you-need-this)
 - [Using The Internal HTTP Library](#using-the-internal-http-library)
 - [Using Got](#using-got)
   - [Sending JSON](#sending-json)
@@ -48,6 +49,16 @@ Which implements a lot of things like:
 - Retries
 
 We'll provide some examples here.
+
+## When Do You Need This
+
+Example use-cases:
+
+- When a user uploads a file, and you have to send that file buffer somewhere
+- When you need to fetch some data from a third-party website, e.g. currency exchange rates
+- When you need to send some structured-data (e.g. JSON objects) to somewhere
+- When you need to send some unstructured-data (e.g. jpeg, png, docx) to somewhere
+- When you're scraping some data and you need to simulate some HTTP requests
 
 ## Using The Internal HTTP Library
 
