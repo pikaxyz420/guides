@@ -1,12 +1,12 @@
 ---
-title: "Sending Requests With NodeJS"
+title: "Sending HTTP Requests With NodeJS"
 ---
 
 ### [Home](https://pikaxyz420.github.io/guides/)
 
 ---
 
-## Sending Requests With NodeJS
+## Sending HTTP Requests With NodeJS
 
 Sending requests with NodeJS.
 
