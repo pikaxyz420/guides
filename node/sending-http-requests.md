@@ -313,6 +313,4 @@ const got = require('got');
 
 ## Questions
 
-For questions, you may reach us on Discord at [https://discord.gg/d4rJDTU3Yy](https://discord.gg/d4rJDTU3Yy)
-
 Feel free to open an issue or submit a PR, Thank you!
