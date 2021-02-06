@@ -217,6 +217,8 @@ const got = require('got');
 
 #### Sending Multipart
 
+Sent as `POST` request.
+
 ```js
 const fs = require('fs');
 const multipart = require('multi-part');
