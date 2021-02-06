@@ -17,6 +17,7 @@ Sending requests with NodeJS.
 - [Using Got](#using-got)
   - [Sending JSON](#sending-json)
   - [Sending Multipart](#sending-multipart)
+  - [Sending URL-encoded](#sending-url-encoded)
   - [Receiving JSON](#receiving-json)
   - [Receiving Buffer](#receiving-buffer)
   - [Receiving Text](#receiving-text)
@@ -212,7 +213,7 @@ Sent as `POST` request.
 const got = require('got');
 
 (async () => {
-  const response = await got.post('https://example.com/', { json: { foo: 'bar' } }).json();
+  const response = await got.post('https://example.com/', { json: { foo: 'bar' } }).json(); // '.json()' means we expect a JSON response
   return response;
 })();
 ```
@@ -244,7 +245,22 @@ const post_form = async (url, body) => {
   
   const form_buffer = await form.buffer();
   const form_headers = form.getHeaders(false);
-  const response = await got.post(url, { headers: form_headers, body: form_buffer }).json(); // note that this one expects a JSON response
+  const response = await got.post(url, { headers: form_headers, body: form_buffer }).json(); // '.json()' means we expect a JSON response
+  return response;
+})();
+```
+
+#### Sending URL-encoded
+
+For endpoints expecting URL-encoded body, uses `Content-Type` `application/x-www-form-urlencoded`.
+
+Sent as `POST` request.
+
+```js
+const got = require('got');
+
+(async () => {
+  const response = await got.post('http://example.com/', { form: { foo: 'bar' } }).json(); // '.json()' means we expect a JSON response
   return response;
 })();
 ```
@@ -257,7 +273,7 @@ Response `Content-Type` must be `application/json`.
 const got = require('got');
 
 (async () => {
-  const response = await got.get('https://example.com/').json();
+  const response = await got.get('https://example.com/').json(); // '.json()' means we expect a JSON response
   return response;
 })();
 ```
