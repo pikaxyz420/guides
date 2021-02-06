@@ -6,4 +6,4 @@
 
 ## Questions
 
-> Feel free to open an issue or submit a PR, Thank you!
+Feel free to open an issue or submit a PR, Thank you!
