@@ -204,6 +204,8 @@ user@group:~$ node ./test.js
 
 #### Sending JSON
 
+For endpoints expecting JSON-encoded body, uses `Content-Type` `application/json`.
+
 Sent as `POST` request.
 
 ```js
@@ -217,6 +219,10 @@ const got = require('got');
 
 #### Sending Multipart
 
+If you're sending files to another server, this is what you're looking for.
+
+For endpoints expecting Multipart-encoded body, uses `Content-Type` `multipart/form-data`.
+
 Sent as `POST` request.
 
 ```js
@@ -227,8 +233,15 @@ const post_form = async (url, body) => {
 };
 (async () => {
   const form = new multipart();
+  
   const file_buffer = await fs.promises.readFile('./file.png');
+  
+  // the 'file' here is the field name
+  // the file_buffer here is the field value
+  // on some cases you have to use a different field name
+  // when using Telegram Bot API's, for example, they expect photos to be use 'photo' as field name
   form.append('file', file_buffer);
+  
   const form_buffer = await form.buffer();
   const form_headers = form.getHeaders(false);
   const response = await got.post(url, { headers: form_headers, body: form_buffer }).json(); // note that this one expects a JSON response
