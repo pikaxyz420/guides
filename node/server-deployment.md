@@ -17,7 +17,20 @@ Deploying your server-side code with NodeJS
 
 ## Overview
 
-- asdasd
+- push repo to github
+- select cloud provider
+- create cloud vm
+- configure cloud vm firewall
+- generate ssh keys
+- add ssh key to github
+- clone repo from github
+- buy domain name
+- configure domain nameservers
+- configure domain A record
+- generate ssl/tls certs
+- test script
+- install pm2 process manager
+- run
 
 ## Questions
 
