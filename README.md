@@ -1,7 +1,7 @@
 ## Home
 
 - [JavaScript Development Environment](https://pikaxyz420.github.io/guides/core/js-dev-env)
-- [Sending Requests With NodeJS](https://pikaxyz420.github.io/guides/node/sending-requests)
+- [Sending HTTP Requests With NodeJS](https://pikaxyz420.github.io/guides/node/sending-http-requests)
 
 ## Questions
 
