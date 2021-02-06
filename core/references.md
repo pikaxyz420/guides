@@ -34,3 +34,7 @@ Reference links for learning JavaScript.
 ## Questions
 
 Feel free to open an issue or submit a PR, Thank you!
+
+---
+
+#### [Home](https://pikaxyz420.github.io/guides/)
