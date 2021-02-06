@@ -14,6 +14,12 @@ Sending requests with NodeJS.
 
 - [What Do You Need](#what-do-you-need)
 - [Using The Internal HTTP Library](#using-the-internal-http-library)
+- [Using Got](#using-got)
+  - [Sending JSON](#sending-json)
+  - [Sending Multipart](#sending-multipart)
+  - [Receiving JSON](#receiving-json)
+  - [Receiving Buffer](#receiving-buffer)
+  - [Receiving Text](#receiving-text)
 - [Questions](#questions)
 
 ## What Do You Need
@@ -44,7 +50,11 @@ We'll provide some examples here.
 
 ## Using The Internal HTTP Library
 
-The request:
+From `http` library, we'll use `http.request`.
+
+- https://nodejs.org/api/http.html#http_http_request_options_callback
+
+Request:
 
 ```js
 const http = require('http');
@@ -68,10 +78,10 @@ req.on('error', (e) => {
 req.end();
 ```
 
-The response:
+Response:
 
 ```sh
-user@group:~/Documents/$ node ./test.js 
+user@group:~$ node ./test.js 
 STATUS: 200
 HEADERS: {"age":"251448","cache-control":"max-age=604800","content-type":"text/html; charset=UTF-8","date":"Sat, 06 Feb 2021 06:54:26 GMT","etag":"\"3147526947+ident\"","expires":"Sat, 13 Feb 2021 06:54:26 GMT","last-modified":"Thu, 17 Oct 2019 07:18:26 GMT","server":"ECS (oxr/831F)","vary":"Accept-Encoding","x-cache":"HIT","content-length":"1256","connection":"close"}
 BODY: <!doctype html>
@@ -125,9 +135,139 @@ BODY:  domain is for use in illustrative examples in documents. You may use this
 END
 ```
 
-More info here:
+## Using Got
 
-- https://nodejs.org/api/http.html#http_http_request_options_callback
+From `got` library, we'll use `got.get`.
+
+Request:
+
+```js
+const got = require('got');
+
+(async () => {
+  const response = await got.get('http://example.com').text();
+  console.log(response);
+})();
+```
+
+Response:
+
+```sh
+user@group:~$ node ./test.js 
+<!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        div {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+    </style>    
+</head>
+
+<body>
+<div>
+    <h1>Example Domain</h1>
+    <p>This domain is for use in illustrative examples in documents. You may use this
+    domain in literature without prior coordination or asking for permission.</p>
+    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
+</div>
+</body>
+</html>
+```
+
+#### Sending JSON
+
+Sent as `POST` request.
+
+```js
+const got = require('got');
+
+(async () => {
+  const response = await got.post('https://example.com/', { json: { foo: 'bar' } }).json();
+  return response;
+})();
+```
+
+#### Sending Multipart
+
+```js
+const fs = require('fs');
+const multipart = require('multi-part');
+
+const post_form = async (url, body) => {
+};
+(async () => {
+  const form = new multipart();
+  const file_buffer = await fs.promises.readFile('./file.png');
+  form.append('file', file_buffer);
+  const form_buffer = await form.buffer();
+  const form_headers = form.getHeaders(false);
+  const response = await got.post(url, { headers: form_headers, body: form_buffer }).json(); // note that this one expects a JSON response
+  return response;
+})();
+```
+
+#### Receiving JSON
+
+Response `Content-Type` must be `application/json`
+
+```js
+const got = require('got');
+
+(async () => {
+  const response = await got.get('https://example.com/').json();
+  return response;
+})();
+```
+
+#### Receiving Buffer
+
+```js
+const got = require('got');
+
+(async () => {
+  const response = await got.get('https://example.com/').buffer();
+  return response;
+})();
+```
+
+#### Receiving Text
+
+```js
+const got = require('got');
+
+(async () => {
+  const response = await got.get('https://example.com/').text();
+  return response;
+})();
+```
 
 ## Questions
 
