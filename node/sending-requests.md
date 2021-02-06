@@ -251,7 +251,7 @@ const post_form = async (url, body) => {
 
 #### Receiving JSON
 
-Response `Content-Type` must be `application/json`
+Response `Content-Type` must be `application/json`.
 
 ```js
 const got = require('got');
