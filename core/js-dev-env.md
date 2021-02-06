@@ -19,10 +19,6 @@ Setting up your development environment for client-side and server-side coding w
   - [Installing an IDE](#installing-an-ide)
   - [Installing NodeJS & NPM](#installing-nodejs--npm)
   - [Installing Git](#installing-git)
-- [JavaScript References](#javascript-references)
-  - [MDN JavaScript Guide](#mdn-javascript-guide)
-  - [JavaScript for Impatient Programmers](#javascript-for-impatient-programmers)
-  - [NodeJS API Docs](#nodejs-api-docs)
 - [Questions](#questions)
 
 ## What Do You Need
@@ -113,26 +109,6 @@ git version 2.25.1
 ```
 
 More info here: https://github.com/git-guides/
-
-## JavaScript References
-
-#### MDN JavaScript Guide
-
-A community-built reference.
-
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
-
-#### JavaScript for Impatient Programmers
-
-An in-depth reference.
-
-- https://exploringjs.com/impatient-js/toc.html
-
-#### NodeJS API Docs
-
-For working with NodeJS.
-
-- https://nodejs.org/api/
 
 ## Questions
 
