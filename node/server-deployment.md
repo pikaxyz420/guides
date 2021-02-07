@@ -54,31 +54,33 @@ ssh-keygen
 #### Push your local repository to your remote repository in GitHub
 
 - Create a new GitHub repository here: https://github.com/new
-- You have three (3) options here:
-  - Clone your newly-created GitHub repository
-  
-  ```sh
-  git clone https://github.com/YOUR_USERNAME/YOUR_PROJECT.git
-  ```
-  
-  - Create a new local git repository, then add your remote GitHub repository 
-  
-  ```sh
-  git init
-  git add README.md
-  git commit -m "first commit"
-  git branch -M master
-  git remote add origin https://github.com/YOUR_USERNAME/YOUR_PROJECT.git
-  git push -u origin master
-  ```
-  
-  - On your existing local git repository, add your remote GitHub repository
-  
-  ```sh
-  git remote add origin https://github.com/YOUR_USERNAME/YOUR_PROJECT.git
-  git branch -M master
-  git push -u origin master
-  ```
+
+You have three (3) options here:
+
+- Clone your newly-created GitHub repository
+
+```sh
+git clone https://github.com/YOUR_USERNAME/YOUR_PROJECT.git
+```
+
+- Create a new local git repository, then add your remote GitHub repository 
+
+```sh
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_PROJECT.git
+git push -u origin master
+```
+
+- On your existing local git repository, add your remote GitHub repository
+
+```sh
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_PROJECT.git
+git branch -M master
+git push -u origin master
+```
 
 #### Select a cloud provider
 
@@ -166,15 +168,15 @@ Something like:
 node ./server/server.js
 ```
 
-Can you connect to your HTTP endpoint (port 80)?
-Can you connect to your HTTPS endpoint (port 443)?
-Is your site loading?
-Is your site serving files?
-Is your site serving GET and POST requests?
-Are your websocket connections OK?
-Is your HTTP endpoint redirecting to HTTPS?
-Is your SSL working, check with: https://www.ssllabs.com/ssltest/
-Is other stuff working, check with: https://observatory.mozilla.org/
+- Can you connect to your HTTP endpoint (port 80)?
+- Can you connect to your HTTPS endpoint (port 443)?
+- Is your site loading?
+- Is your site serving files?
+- Is your site serving GET and POST requests?
+- Are your websocket connections OK?
+- Is your HTTP endpoint redirecting to HTTPS?
+- Is your SSL working, check with: https://www.ssllabs.com/ssltest/
+- Is other stuff working, check with: https://observatory.mozilla.org/
 
 #### Run your project's server scripts with PM2
 
