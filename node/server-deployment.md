@@ -17,20 +17,26 @@ Deploying your server-side code with NodeJS
 
 ## Overview
 
-- push repo to github
-- select cloud provider
-- create cloud vm
-- configure cloud vm firewall
-- generate ssh keys
-- add ssh key to github
-- clone repo from github
-- buy domain name
-- configure domain nameservers
-- configure domain A record
-- generate ssl/tls certs
-- test script
-- install pm2 process manager
-- run
+- Generate your local SSH-key
+- Add your local SSH Key to your GitHub account
+- Push your local repository to your remote repository in GitHub
+- Select a cloud provider
+- Provision a server instance
+- Configure your server's network firewall
+- Connect via SSH to your server
+- Install NodeJS, NPM / Yarn, PM2
+- Install databases
+- Generate your server's SSH-key
+- Add your server's SSH Key to your GitHub Account
+- Clone your remote repository in GitHub to your server
+- Install your project's dependencies
+- Set-up your project's configuration
+- Create your project's SSL certificates
+- Build your project's client
+- Bundle your project's client scripts
+- Set-up your databases & tables
+- Test your project's server scripts
+- Run your project's server scripts with PM2
 
 ## Questions
 
